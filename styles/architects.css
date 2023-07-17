@@ -115,14 +115,54 @@ font-weight: 700;
     margin-right: 70px;
     margin-left: 70px;
  }
+ /* features section start */
+
+ /* some facts section */
+ .some{
+    margin-bottom: 24px;
+ }
+ .some-desc{
+    margin-bottom: 100px;
+ }
+ .facts-images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+  
+
+    
+ }
+ .cards{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 40px 30px;
+ }
+ .some-states{
+    color: #424242;
+font-size: 2.8rem;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+ }
+ .some-title{
+    color:  #727272;
+font-size: 1.25rem;
+font-weight: 600;
+ }
+
  /* css responsive style mobile devices */
  @media screen and (max-width: 576px){
     header{
         padding: 20px;
     }
     nav,
-    .teams-container{
+    .teams-container,
+    .facts-images{
         flex-direction: column;
+    }
+    .facts-images{
+        gap: 20px;
     }
     .teams-images{
         grid-template-columns: repeat(1,1fr);
